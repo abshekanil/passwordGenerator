@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3170/3170748.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+      <div class="container">
+        <div class="passwordGBox">
+            <h1>Random Password Generator</h1>
+
+            <p>Create strong and secure passwords to keep your account safe online.</p>
+
+            <input  class="textInput" type="text" value = "qwertyuioplk" readonly>
+
+
+            <div class="sliderContainer">
+                <label>Password Length :</label>
+                <span class="lengthDisplay">12</span>
+                <input type="range" min="6" max="18" value="12" class="slider">
+                
+            </div>
+
+            <button class="generatePassword">Generate Password</button>
+        </div>
+      </div>
+   
+
+    <script src="./script.js"></script>
+</body>
+</html>
